@@ -257,6 +257,8 @@ a:link{
 }
 
 .about-wrapper{
+  
+
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     padding-bottom: 50px;
@@ -277,16 +279,19 @@ a:link{
     justify-content: space-evenly;
     background-color: var(--previewShadow) ;
     margin-right: 3em;
+    margin-left:1em
 }
 
 .post-wrapper{
+   
+
     display: grid;
     grid-template-columns: repeat(auto-fit,320px) ;
     gap : 20px;
     justify-content: center;
-    padding-bottom:50px;
- 
-}
+    padding-bottom: 50px;
+    padding-top: 50px;
+    }
 
 
 
@@ -326,6 +331,8 @@ a:link{
 }
 
 .contact-wrapper{
+    
+
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     padding-bottom: 50px;
